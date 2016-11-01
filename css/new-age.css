@@ -151,11 +151,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), #777;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #777, #777);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #777, #777);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -294,8 +294,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #777, #777);
+  background: linear-gradient(to left, #777, #777);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -421,14 +421,14 @@ footer ul li a.active {
   background: linear-gradient(#fdcc52, #fdc539);
 }
 .bg-secondary {
-  background: #7b4397;
-  background: -webkit-linear-gradient(#7b4397, #ac7bc5);
-  background: linear-gradient(#7b4397, #ac7bc5);
+  background: #777;
+  background: -webkit-linear-gradient(#777, #aaaaaa);
+  background: linear-gradient(#777, #aaaaaa);
 }
 .bg-tertiary {
-  background: #dc2430;
-  background: -webkit-linear-gradient(#dc2430, #e3505a);
-  background: linear-gradient(#dc2430, #e3505a);
+  background: #777;
+  background: -webkit-linear-gradient(#777, #919191);
+  background: linear-gradient(#777, #919191);
 }
 .text-primary {
   color: #fdcc52;
@@ -438,7 +438,7 @@ footer ul li a.active {
   padding-left: 0;
 }
 .top-pad {
-  padding-top: 70px!important;
+  padding-top: 2.5em!important;
 }
 .btn-outline {
   color: white;

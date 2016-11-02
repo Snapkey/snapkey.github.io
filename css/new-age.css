@@ -288,8 +288,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #777, #777);
-  background: linear-gradient(to left, #777, #777);
+  background: -webkit-linear-gradient(to left, #fdcc52, #fdcc52);
+  background: linear-gradient(to left, #fdcc52, #fdcc52);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -474,7 +474,7 @@ footer ul li a.active {
   margin-top: 0;
 }
 .logo {
-  height: 3em;
+  height: 300%;
   border-radius: 50%;
   box-shadow: 0px 2px 2px #888888;
 }

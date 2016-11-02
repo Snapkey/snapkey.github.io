@@ -227,12 +227,6 @@ section {
 section h2 {
   font-size: 50px;
 }
-section.signup-form form {
-  background-color: #000;
-}
-section.signup-form form button {
-  text-decoration: none;
-}
 section.download {
   padding: 70px 0;
   position: relative;
@@ -468,6 +462,16 @@ footer ul li a.active {
 }
 .snapkey {
   color: #fdcc52;
+}
+.message {
+  font-style: bold;
+  display: inline;
+  bottom: -1.5em;
+  font-size: 0.9em;
+  height: 1em;
+  margin-left: 1em;
+  line-height: inherit;
+  margin-top: 0;
 }
 ::-moz-selection {
   color: white;

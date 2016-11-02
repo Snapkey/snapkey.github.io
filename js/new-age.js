@@ -28,6 +28,11 @@
         }
     });
 
+    $('#top').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+
         // Vars.
             var $form = document.querySelectorAll('#signup-form')[0],
                 $submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],

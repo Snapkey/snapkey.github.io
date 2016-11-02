@@ -4,15 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Muli', 'Helvetica', 'Arial', 'serif';
 }
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Lato', 'Helvetica', 'Arial', 'serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Muli', 'Helvetica', 'Arial', 'serif';
 }
 a {
   -webkit-transition: all 0.35s;
@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -64,12 +64,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: #fdcc52;
@@ -84,7 +84,7 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Lato', 'Helvetica', 'Arial', 'serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
@@ -170,7 +170,7 @@ header .header-content .header-content-inner {
   margin: 0 auto;
 }
 header .header-content .header-content-inner h1 {
-  margin-top: 0;
+  margin-top: 1em;
   margin-bottom: 0em;
   font-size: 30px;
 }
@@ -448,7 +448,7 @@ footer ul li a.active {
   border-color: #fdcc52;
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Lato', 'Helvetica', 'Arial', 'serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
@@ -472,6 +472,11 @@ footer ul li a.active {
   margin-left: 1em;
   line-height: inherit;
   margin-top: 0;
+}
+.logo {
+  height: 3em;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px #888888;
 }
 ::-moz-selection {
   color: white;

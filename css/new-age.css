@@ -474,6 +474,7 @@ footer ul li a.active {
   margin-top: 0;
 }
 .logo {
+  border-style: solid;
   height: 300%;
   border-radius: 50%;
   box-shadow: 0px 2px 2px #888888;
